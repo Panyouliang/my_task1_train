@@ -7,7 +7,7 @@ Netnum=sys.argv[2] #input net number
 spe_number=14 #species number
 mode='InferNetwork_ML' #PhyloNet command
 
-space=200
+space=2000
 
 def get_tree(File):
     with open(File,'r') as f:
